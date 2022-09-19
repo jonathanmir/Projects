@@ -1,0 +1,246 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+body {
+  margin: 0%;
+}
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 35px;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+main ul {
+  max-width: 900px;
+}
+header {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+nav {
+  display: flex;
+  width: 1200px;
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+}
+aside {
+  margin-left: 65px;
+}
+
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 16px;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+p {
+  height: 10px;
+}
+
+a:hover {
+  color: #37268c;
+}
+.logo {
+  max-width: 60px;
+}
+
+.logoDiv {
+  display: flex;
+  gap: 25px;
+}
+.categorias {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+.cards {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.divImg {
+  width: 220px;
+  height: 144px;
+  padding-top: 0;
+  object-fit: cover;
+}
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  width: 220px;
+  border: 2px solid white;
+}
+.produto:hover {
+  border: 2px solid #2e245e;
+}
+
+.infoProduto {
+  background-color: rgb(255, 255, 255);
+  margin: 3px;
+  padding-left: 8px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.tipoProduto {
+  background-color: #2e245e;
+  max-width: fit-content;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+}
+.addCartButton {
+  color: black;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 20px;
+  width: 90%;
+}
+.addCartButton:hover {
+  color: white;
+  background-color: #37268c;
+}
+
+.searchNav {
+  display: flex;
+  flex-direction: row;
+}
+.buttonSearch {
+  color: white;
+  border: none;
+  background-color: #37268c;
+  cursor: pointer;
+  height: 35px;
+  width: 40%;
+}
+
+.inputBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carrinhoTitle {
+  background-color: #37268c;
+  width: 100%;
+  height: 35px;
+  color: #f5f5f5;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+  align-items: center;
+}
+.carrinhoVazio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 240px;
+  background-color: #f5f5f5;
+  overflow: scroll;
+}
+
+
+.barrasSoma{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+.barSum {
+  background-color: #333333;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.removeButton {
+  color: black;
+  border: none;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+}
+.removeButton:hover {
+  color: white;
+  background-color: #37268c;
+}
+
+.hidden {
+  display: none;
+}
+
+.searchInput {
+  height: 30px;
+}
+.searchInput:focus {
+  background-color: #f5f5f5;
+}
+.produtoCarrinho {
+  list-style-type: none;
+  width: 100%;
+}
+.divProduto {
+  display: flex;
+  height: 100px;
+  font-size: 12px;
+  border: 2px solid #f5f5f500;
+}
+.divImage {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+}
+
+.divCarrinho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  row-gap: 0;
+}
+
+.imgCarrinho {
+  padding-top: 8%;
+  max-width: 100%;
+  max-height: 70px;
+}
+
+.divProduto:hover {
+  border: 2px solid #37268c;
+}
